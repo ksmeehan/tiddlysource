@@ -1,0 +1,29 @@
+{
+  "name": "tiddlyserver",
+  "version": "2.0.14",
+  "description": "",
+  "bin": {
+    "tiddlyserver": "./server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rxjs": "5.4.3",
+    "@types/node": ">=6.0.73 <7.0.0",
+    "etag": "^1.8.1",
+    "formidable": "^1.1.1",
+    "fresh": "^0.5.2",
+    "morgan": "*",
+    "serve-static": "*",
+    "xml-js": "*",
+    "ws": "*"
+  },
+  "engines": {
+    "node": "^6.11.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Arlen Beiler",
+  "license": "MIT"
+}
